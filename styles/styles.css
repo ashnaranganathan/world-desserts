@@ -1,0 +1,146 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cddafd
+  }
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightgray;
+}
+
+.active {
+  background-color: lightpink;
+}
+
+.img {
+    float: left;
+    width:  300px;
+    height: 300px;
+    background-size: cover;
+}
+
+.meddetail {
+	width: 100%;
+	padding: 25px;
+	background-color: coral;
+	color: white;
+	font-size: 25px;
+	background-image: url("./../images/greek-desserts.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.homesection {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+}
+
+.homeleftcontent {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  WIDTH:33%
+}
+
+.homedowncontent {
+  padding: 20px;
+  WIDTH:33%
+}
+
+.section {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+}
+
+.paragraph {
+  color: #555;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  color: #222;
+  line-height: 24px;
+}
+
+.italiandetail {
+	width: 100%;
+	padding: 25px;
+	background-color: coral;
+	color: white;
+	font-size: 25px;
+  background-image: url("./../images/italiandessertsbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.indiandetail {
+	width: 100%;
+	padding: 25px;
+	background-color: coral;
+	color: white;
+	font-size: 25px;
+  background-image: url("./../images/indiandessertsbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.resultsdetail {
+	width: 100%;
+	padding: 25px;
+	background-color: coral;
+	color: white;
+	font-size: 25px;
+  background-image: url("./../images/home.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mexicandetail {
+	width: 100%;
+	padding: 25px;
+	background-color: coral;
+	color: white;
+	font-size: 25px;
+  background-image: url("./../images/mexicandessertsbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.thaidetail {
+	width: 100%;
+	padding: 25px;
+	background-color: coral;
+	color: white;
+	font-size: 25px;
+  background-image: url("./../images/thaidessertsbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
